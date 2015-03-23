@@ -1,8 +1,5 @@
 ---
 - hosts: all
 
-  vars:
-    postgresql_support_repository_channel: "9.3"
-
   roles:
     - { role: "azavea.postgresql-support" }
