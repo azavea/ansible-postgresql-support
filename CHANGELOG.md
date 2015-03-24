@@ -1,3 +1,8 @@
+## 0.2.1
+
+- Make use of version blob.
+- Confirm PostgreSQL 9.4 support.
+
 ## 0.2.0
 
 - Update default package version for `libpq-dev` to `9.3.5-2.pgdg14.04+1"`.
