@@ -1,3 +1,7 @@
+## 0.2.2
+
+- Update default package version of `libpq-dev to `9.5.*.pgdg14.04+2`.
+
 ## 0.2.1
 
 - Make use of version blob.
