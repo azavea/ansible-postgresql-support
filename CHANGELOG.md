@@ -1,6 +1,10 @@
+## 0.3.0
+
+- Add support for Ansible 2.0.
+
 ## 0.2.2
 
-- Update default package version of `libpq-dev to `9.5.*.pgdg14.04+2`.
+- Update default package version of `libpq-dev` to `9.5.*.pgdg14.04+2`.
 
 ## 0.2.1
 
