@@ -1,3 +1,7 @@
+## 0.3.1
+
+- Fix PostgreSQL installation channel for version 9.5.
+
 ## 0.3.0
 
 - Add support for Ansible 2.0.
