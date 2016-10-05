@@ -7,9 +7,9 @@ An Ansible role for installing libraries that support the following PostgreSQL A
 
 ## Role Variables
 
-- `postgresql_support_libpq_version` - PostgreSQL client library version (default: `9.3.5-2.pgdg14.04+1`)
-- `postgresql_support_psycopg2_version` - Psycopg2 version (default: `2.5.4`)
-- `postgresql_support_repository_channel` - PostgreSQL repository channel (default: `main`)
+- `postgresql_support_libpq_version` - PostgreSQL client library version (default: `9.5.*.pgdg14.04+2`)
+- `postgresql_support_psycopg2_version` - Psycopg2 version (default: `2.6`)
+- `postgresql_support_repository_channel` - PostgreSQL repository channel (default: `9.5`)
 
 ## Example Playbook
 
