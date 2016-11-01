@@ -1,3 +1,7 @@
+## 0.3.2
+
+- Update default package version of `libpq-dev` to `9.5.*.pgdg14.04+1`.
+
 ## 0.3.1
 
 - Fix PostgreSQL installation channel for version 9.5.
