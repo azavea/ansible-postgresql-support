@@ -7,8 +7,11 @@
                   state=present
 
 - name: Install client API libraries for PostgreSQL
-  apt: pkg=libpq-dev={{ postgresql_support_libpq_version }}
+  apt: pkg={{ item }}={{ postgresql_support_libpq_version }}
        state=present
+  with_items:
+    - libpq5
+    - libpq-dev
 
 - name: Install PostgreSQL driver for Python
   pip: name=psycopg2
