@@ -1,3 +1,7 @@
+## 0.4.0
+
+- Add support for Ubuntu 16.04.
+
 ## 0.3.2
 
 - Update default package version of `libpq-dev` to `9.5.*.pgdg14.04+1`.
